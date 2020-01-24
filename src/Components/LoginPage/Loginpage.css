@@ -1,0 +1,53 @@
+
+.Login_form {
+    max-width: 400px;
+    margin-left: 60%;
+    /* background-image: url(../../lic.png) */
+}
+span{
+    color: red;
+}
+
+  
+.Loginhead {
+    font-weight: 50;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(139, 36, 131);
+  }
+  
+  .error {
+    color: #bf1650;
+  }
+  
+  .error::before {
+    display: inline;
+    content: "⚠ ";
+  }
+ .Login_input,.Sele {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid  ;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .Login_label{
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 200;
+  }
+ .Login_button{
+      font-size: x-large;
+      margin-left: 40%;
+      border: 1px solid;
+      background-color:skyblue;
+      color: white;
+      border-radius: 6px;
+  }

@@ -1,0 +1,47 @@
+.Newuser_wrapper {
+    text-align: center;
+    height: auto;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    margin-left: 50%;
+  }
+  .Newuser_formrow {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+  }
+  .Newuser_formrow > .Newuser_label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  } 
+  .form-row > .Newuser_input {
+    flex: 2;
+  }
+  .form-row > .Newuser_input,
+  .form-row > .Newuser_button {
+    padding: .5em;
+  }
+  .Newuser_formrow > .Newuser_button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
+  .Newuser_input{
+    background-color: rgba(204, 204, 204, 0.075);
+    border-radius: 5px;
+    outline: none;
+    border-color: transparent;
+    border-bottom: 2px solid #1c87c9;
+  }
+  .Newuser_button{
+      margin-right: 10rem;
+  }
+
+
+
+  .Newuser_wrapper {
+    /* display: flex; */
+    flex-flow: row wrap;
+    /* background-color: DodgerBlue; */
+  }
