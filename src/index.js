@@ -5,7 +5,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 // import RoutingPage from './Routing/RoutingPage';
 // import Photos from './DataFetch/Datafetch'
-import Main from './Components/Main'
+import Room from './Rooms_Task/Room'
 
 // import UploadScreen from './Agi';
 //  import Project from './Project1';
@@ -20,6 +20,6 @@ import Main from './Components/Main'
 
 
 
-ReactDOM.render(<Main/> , document.getElementById('root'));
+ReactDOM.render(<Room/> , document.getElementById('root'));
 
 serviceWorker.unregister();

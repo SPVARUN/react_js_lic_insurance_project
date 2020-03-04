@@ -1,0 +1,12 @@
+.Container{
+    height:200px;
+    width: 30%;
+    border: 1px solid salmon;
+    background-color: rgb(192, 206, 202);
+    box-shadow: rgb(199, 123, 199);
+    text-align: center;
+    margin-left: 400px;
+}
+hr{
+    border: 1px solid black;
+}
