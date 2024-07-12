@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.5.0",
-    "ag-grid-community": "^21.2.2",
+    "ag-grid-community": "^32.0.1",
     "ag-grid-react": "^21.2.2",
     "material-ui": "^0.20.2",
     "react": "^16.10.2",
